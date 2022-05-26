@@ -4,6 +4,8 @@ const calcAge = function(Year) {
     return 2022 - Year;
 }
 
+// Function calling another function
+
 const yearsUntilRetirement = function(birthYear, name) {
     const age = calcAge(birthYear);
 
