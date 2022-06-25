@@ -11,8 +11,10 @@ Let's go back to Mark and John comparing their BMIs! This time, let's use object
 
 TEST DATA: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 
+
 */
 
+// Objects 
 const mark = {
   fullName: "Mark Miller",
   mass: 78,
