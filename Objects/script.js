@@ -8,6 +8,7 @@ const objectIntroduction = {
     friends: ["Ayon", "Angelee", "Sheetal", "Sanchi", "Manogna"]
 }
 
+// Extracting first name
 console.log(objectIntroduction.firstName);
 
 console.log(objectIntroduction['firstName']);
