@@ -21,5 +21,7 @@ const yearsUntilRetirement = function(birthYear, name) {
 
 }
 
+//passing arguments
+
 console.log(yearsUntilRetirement(2002, "Ayush"));
 console.log(yearsUntilRetirement(1970, "Ayon"));
