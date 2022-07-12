@@ -41,6 +41,7 @@ console.log(restaurant.order(1,2));
 
 const nested = [1,2,[3,4]];
 
+// Nested single element destructuring
 const [i, , [j,k]] = nested;
 
 console.log(i,j,k);
