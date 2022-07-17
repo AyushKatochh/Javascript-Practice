@@ -52,3 +52,28 @@ const checkBaggage = function(items) {
 checkBaggage("I have gun");
 checkBaggage("Knife  butter");
 checkBaggage("Clothes there");
+
+console.log('a+very+nice+string'.split('*'));
+
+
+
+const capitalizeName = function(name) {
+  const names = name.split('');
+  const namesUpper = [];
+
+  for(const n of names) {
+    namesUpper.push(n.replace(n[0], n[0].toUpperCase()));
+  }
+  console.log(namesUpper.join(' '));
+};
+
+capitalizeName('ayush chand katoch');
+
+//Padding
+const maskedCreditCard = function (number) {
+  const str = number + '';
+  const last = str.slice(-4);
+  return last.padStart(str.length, '*');
+}
+
+console.log(maskedCreditCard(123400001234));
