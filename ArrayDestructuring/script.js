@@ -45,3 +45,4 @@ const nested = [1,2,[3,4]];
 const [i, , [j,k]] = nested;
 
 console.log(i,j,k);
+//
