@@ -57,6 +57,7 @@ console.log(openStr);
 
 const values = Object.values(openingHours);
 
+//entries() is used for key value pairs
 const entries = Object.entries(openingHours);
 console.log(entries);
 
